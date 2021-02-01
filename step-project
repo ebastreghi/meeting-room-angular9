@@ -1,9 +1,14 @@
 //install angular cli
 npm install -g @angular/cli
 
+//create a service
+ng g s room
 
-
-
+//create a component
+ng g c create-room
+ng g c room-details
+ng g c room-list
+ng g c update-room
 
 
 
