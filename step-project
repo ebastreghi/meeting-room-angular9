@@ -1,3 +1,35 @@
 //install angular cli
 npm install -g @angular/cli
 
+
+
+
+
+
+
+
+
+**************************
+//When you use npm install -g on any platform and you get EACCES, you are writing to a 
+//directory for which you do not have write permission.
+//follow the next steps
+Try using this: On the command line, in your home directory, create a directory for global installations:
+mkdir ~/.npm-global
+
+Configure npm to use the new directory path:
+npm config set prefix '~/.npm-global'
+
+In your preferred text editor, open or create a ~/.profile file and add this line:
+export PATH=~/.npm-global/bin:$PATH
+
+On the command line, update your system variables:
+source ~/.profile
+
+grant permission to my user
+chown -R ebastreghi client-room/
+*****************************
+
+
+
+
+
