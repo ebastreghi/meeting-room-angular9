@@ -11,7 +11,11 @@ ng g c room-list
 ng g c update-room
 
 
-
+//to run the app
+npm install --save bootstrap
+npm install --save jquery
+ng serve
+localhost:4200
 
 
 **************************
